@@ -24,10 +24,8 @@ extern "C" void _AXSCommandAndControlSetEnabled(BOOL);
 - (void)applyState:(FSSwitchState)newState forSwitchIdentifier:(NSString *)switchIdentifier {
     switch (newState) {
         case FSSwitchStateIndeterminate:
-            [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:YES] forKey:@"enabled" inDomain:nsDomainString];
             break;
         case FSSwitchStateOn:
-            [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithBool:YES] forKey:@"enabled" inDomain:nsDomainString];
             _AXSCommandAndControlSetEnabled(YES);
             break;
         case FSSwitchStateOff:

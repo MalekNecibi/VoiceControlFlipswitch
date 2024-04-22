@@ -23,7 +23,7 @@
 	<key>DTPlatformName</key>
 	<string>iphoneos</string>
 	<key>MinimumOSVersion</key>
-	<string>7.0</string>
+	<string>13.0</string>
 	<key>NSPrincipalClass</key>
 	<string>VoiceControlSwitch</string>
 	<key>alternate-action-url</key>

@@ -1,0 +1,8 @@
+Package: us.necibi.voicecontrol
+Name: Voice Control Flipswitch
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Flipswitch toggle for Voice Control
+Author: Malek Necibi
+Section: Addons (Flipswitch)
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000), com.a3tweaks.flipswitch
